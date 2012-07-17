@@ -29,5 +29,5 @@
 #dev_mount sdcard /mnt/sdcard auto /devices/platform/msm_sdcc.3/mmc_host 
 
 # for internal SD and external SD card both
-dev_mount sdcard /mnt/sdcard 21 /devices/platform/msm_sdcc.1/mmc_host
+dev_mount sdcard /mnt/sdcard auto /devices/platform/msm_sdcc.1/mmc_host
 dev_mount ext_sd /mnt/sdcard/ext_sd auto /devices/platform/msm_sdcc.3/mmc_host 

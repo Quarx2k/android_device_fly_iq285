@@ -68,5 +68,31 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/lib/libril-qc-1.so:/system/lib/libril-qc-1.so \
 	$(DEVICE_PREBUILT)/lib/libril-qc-qmi-1.so:/system/lib/llibril-qc-qmi-1.so \
 	$(DEVICE_PREBUILT)/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
+	$(DEVICE_PREBUILT)/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+	$(DEVICE_PREBUILT)/lib/libSktEngine.so:/system/lib/libSktEngine.so \
+	$(DEVICE_PREBUILT)/lib/libmipl.so:/system/lib/libmipl.so \
+	$(DEVICE_PREBUILT)/lib/libgemini.sp:/system/lib/libgemini.sp \
+	$(DEVICE_PREBUILT)/lib/liboncrpc.so:/system/lib/liboncrpc.so \
+	$(DEVICE_PREBUILT)/lib/libdsm.so:/system/lib/libdsm.so \
+	$(DEVICE_PREBUILT)/lib/libqueue.so:/system/lib/libqueue.so \
+	$(DEVICE_PREBUILT)/lib/libauth.so:/system/lib/libauth.so \
+	$(DEVICE_PREBUILT)/lib/libcm.so:/system/lib/libcm.so \
+	$(DEVICE_PREBUILT)/lib/libmmgsdilib.so:/system/lib/libmmgsdilib.so \
+	$(DEVICE_PREBUILT)/lib/libgsdi_exp.so:/system/lib/libgsdi_exp.so \
+	$(DEVICE_PREBUILT)/lib/libgstk_exp.so:/system/lib/libgstk_exp.so \
+	$(DEVICE_PREBUILT)/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
+	$(DEVICE_PREBUILT)/lib/libnv.so:/system/lib/libnv.so \
+	$(DEVICE_PREBUILT)/lib/libpbmlib.so:/system/lib/libpbmlib.so \
+	$(DEVICE_PREBUILT)/lib/libwms.so:/system/lib/libwms.so \
+	$(DEVICE_PREBUILT)/lib/libwmsts.so:/system/lib/libwmsts.so \
+	$(DEVICE_PREBUILT)/lib/libqmi.so:/system/lib/libqmi.so \
+	$(DEVICE_PREBUILT)/lib/libdsutils.so:/system/lib/libdsutils.so \
+	$(DEVICE_PREBUILT)/lib/libidl.so:/system/lib/libidl.so \
+	$(DEVICE_PREBUILT)/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
+	$(DEVICE_PREBUILT)/lib/libnetmgr.so:/system/lib/libnetmgr.so \
+	$(DEVICE_PREBUILT)/lib/libqdp.so:/system/lib/libqdp.so \
+	$(DEVICE_PREBUILT)/lib/libril.so:/system/lib/libril.so \
+
+
 
 #end of k4-blobs.mk
