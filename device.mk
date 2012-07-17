@@ -22,8 +22,8 @@ DEVICE_PACKAGE_OVERLAYS += device/fly/iq285/overlay
 
 # Prepare boot.img ramdisk
 PRODUCT_COPY_FILES += \
-	device/fly/iq285/ramdisk/init.iq285.rc:root/init.qcom.rc \
-	device/fly/iq285/ramdisk/ueventd.iq285.rc:root/ueventd.rc
+	device/fly/iq285/ramdisk/init.qcom.rc:root/init.qcom.rc \
+	device/fly/iq285/ramdisk/ueventd.rc:root/ueventd.rc
 
 # Permissions
 PRODUCT_COPY_FILES += \

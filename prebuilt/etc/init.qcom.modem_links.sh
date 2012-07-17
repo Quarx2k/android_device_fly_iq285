@@ -32,12 +32,15 @@
 PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
+mount -t vfat /dev/block/mmcblk0p1 /system/etc/firmware/misc -o shortname=lower
+
 # Check for images and set up symlinks
 cd /system/etc/firmware/misc/image
 
 case `ls modem.mdt 2>/dev/null` in
     modem.mdt)
         for imgfile in modem*; do
+            log -p w -t PIL 8660 device. modem image found
             ln -s /system/etc/firmware/misc/image/$imgfile /system/etc/firmware/$imgfile 2>/dev/null
         done
         break
@@ -50,6 +53,7 @@ esac
 case `ls q6.mdt 2>/dev/null` in
     q6.mdt)
         for imgfile in q6*; do
+            log -p w -t PIL 8660 device. q6 image found
             ln -s /system/etc/firmware/misc/image/$imgfile /system/etc/firmware/$imgfile 2>/dev/null
         done
         break

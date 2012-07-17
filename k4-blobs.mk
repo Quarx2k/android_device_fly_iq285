@@ -50,6 +50,8 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/bin/rmt_storage:/system/bin/rmt_storage \
 	$(DEVICE_PREBUILT)/bin/battery_charging:/system/bin/battery_charging \
 	$(DEVICE_PREBUILT)/bin/netmgrd:/system/bin/netmgrd \
+	$(DEVICE_PREBUILT)/bin/mpdecision:/system/bin/mpdecision \
+
 
 #Libs
 PRODUCT_COPY_FILES += \
@@ -70,8 +72,8 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
 	$(DEVICE_PREBUILT)/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
 	$(DEVICE_PREBUILT)/lib/libSktEngine.so:/system/lib/libSktEngine.so \
-	$(DEVICE_PREBUILT)/lib/libmipl.so:/system/lib/libmipl.so \
-	$(DEVICE_PREBUILT)/lib/libgemini.sp:/system/lib/libgemini.sp \
+	$(DEVICE_PREBUILT)/lib/libmmipl.so:/system/lib/libmmipl.so \
+	$(DEVICE_PREBUILT)/lib/libgemini.so:/system/lib/libgemini.so \
 	$(DEVICE_PREBUILT)/lib/liboncrpc.so:/system/lib/liboncrpc.so \
 	$(DEVICE_PREBUILT)/lib/libdsm.so:/system/lib/libdsm.so \
 	$(DEVICE_PREBUILT)/lib/libqueue.so:/system/lib/libqueue.so \
@@ -80,7 +82,6 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/lib/libmmgsdilib.so:/system/lib/libmmgsdilib.so \
 	$(DEVICE_PREBUILT)/lib/libgsdi_exp.so:/system/lib/libgsdi_exp.so \
 	$(DEVICE_PREBUILT)/lib/libgstk_exp.so:/system/lib/libgstk_exp.so \
-	$(DEVICE_PREBUILT)/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
 	$(DEVICE_PREBUILT)/lib/libnv.so:/system/lib/libnv.so \
 	$(DEVICE_PREBUILT)/lib/libpbmlib.so:/system/lib/libpbmlib.so \
 	$(DEVICE_PREBUILT)/lib/libwms.so:/system/lib/libwms.so \
@@ -92,7 +93,10 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/lib/libnetmgr.so:/system/lib/libnetmgr.so \
 	$(DEVICE_PREBUILT)/lib/libqdp.so:/system/lib/libqdp.so \
 	$(DEVICE_PREBUILT)/lib/libril.so:/system/lib/libril.so \
-
+	$(DEVICE_PREBUILT)/lib/libdsucsd.so:/system/lib/libdsucsd.so \
+	$(DEVICE_PREBUILT)/lib/libskts_vt.so:/system/lib/libskts_vt.so \
+	$(DEVICE_PREBUILT)/lib/libthermal_mitigation.so:/system/lib/libthermal_mitigation.so \
+	$(DEVICE_PREBUILT)/lib/libtime_remote_atom.so:/system/lib/libtime_remote_atom.so \
 
 
 #end of k4-blobs.mk

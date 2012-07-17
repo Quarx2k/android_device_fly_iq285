@@ -7,7 +7,6 @@ on fs
 
     mount ext4 /dev/block/mmcblk0p12 /system rw barrier=0
     mkdir /system/etc/firmware/misc 0771 system system
-    #mount vfat loop@/system/MODEM.img /system/etc/firmware/misc ro shortname=lower
     exec /system/etc/init.qcom.modem_links.sh
 
     mount ext4 /dev/block/mmcblk0p13 /data nosuid nodev noatime barrier=1 data=ordered noauto_da_alloc
