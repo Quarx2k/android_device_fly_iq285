@@ -35,12 +35,12 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
 	$(DEVICE_PREBUILT)/etc/thermald.conf:system/etc/thermald.conf \
 	$(DEVICE_PREBUILT)/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
+	$(DEVICE_PREBUILT)/etc/gps.conf:system/etc/gps.conf \
 
 # Modules
 PRODUCT_COPY_FILES += $(DEVICE_PREBUILT)/lib/modules/bcm4329.ko:/system/lib/modules/bcm4329.ko
 
 # Bins
-
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/bin/BCM4329B1.hcd:/system/bin/BCM4329B1.hcd \
 	$(DEVICE_PREBUILT)/bin/port-bridge:/system/bin/port-bridge \
@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PREBUILT)/bin/battery_charging:/system/bin/battery_charging \
 	$(DEVICE_PREBUILT)/bin/netmgrd:/system/bin/netmgrd \
 	$(DEVICE_PREBUILT)/bin/mpdecision:/system/bin/mpdecision \
-
 
 #Libs
 PRODUCT_COPY_FILES += \

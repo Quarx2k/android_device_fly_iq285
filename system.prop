@@ -22,3 +22,5 @@ ro.vold.umsdirtyratio=20
 
 # This is a high density device with more memory, so larger vm heaps for it.
 dalvik.vm.heapsize=64m
+
+wifi.interface=eth0

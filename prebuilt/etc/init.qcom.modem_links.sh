@@ -29,10 +29,9 @@
 #
 
 # No path is set up at this point so we have to do it here.
-PATH=/sbin:/system/sbin:/system/bin:/system/xbin
-export PATH
+export PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 
-mount -t vfat /dev/block/mmcblk0p1 /system/etc/firmware/misc -o shortname=lower
+mount -r -t vfat -o shortname=lower  /dev/block/mmcblk0p1 /system/etc/firmware/misc
 
 # Check for images and set up symlinks
 cd /system/etc/firmware/misc/image
